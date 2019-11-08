@@ -1,0 +1,18 @@
+* {
+	margin: 5px;
+}
+section {
+	display: flex;
+}
+p {
+	background-color: #eee;
+	font-family: sans-serif;
+}
+
+.button {
+	background-color: white;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+}
+
