@@ -28,7 +28,7 @@ $('.button').on('click', function() {
 	var result = checkWin(Tabel, count);
 	if(result !== undefined) {
 		alert(result);
-		$('#playAgain').slideDown(3000);
+		$('#playAgain').slideDown(1500);
 	}
 });
 
@@ -63,40 +63,7 @@ $('#playAgain').on('click', function() {
 
 })
 
-/*
-$('#playAgain').on('click', function() {
-	// $('#playAgain').slideUp()
-	console.log('OOOOOOOOOOOOO')
-	Tabel = [
-	['', '', ''],
-	['', '', ''],
-	['', '', '']
-	];
-	choose = 0;
-	count = 0;
-	$('.button').text('--');
 
-	var idButton = ($(this).attr('id'))
-	if (Tabel[idButton[0]][idButton[1]]=== '') {
-		count +=1;
-		Tabel[idButton[0]][idButton[1]] = players[choose];
-		$('#' + idButton).text( players[choose]);
-		choose += 1;
-	}
-
-
-	if(choose === 2) {
-		choose = 0;
-	}
-	
-	var result = checkWin(Tabel, count);
-	if(result !== undefined) {
-		alert(result);
-		$('body').append('<button id="playAgain">play again</button> ')
-	}
-
-});
-*/
 
 
 
